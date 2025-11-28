@@ -9,19 +9,22 @@
 
 main:
   - title: "Projects"
-    url: /talks/  
-    
+    url: /cv/
+
   - title: "Publications"
-    url: /publications/  
-        
+    url: /publications/
+
   - title: "Outreach"
     url: /year-archive/
-    
-  - title: "CV"
+
+  - title: "CV1"
     url: /cv/
-    
+
+  - title: "CV2"
+    url: /cv/
+
   # - title: "CV"
   #   url: /cv-json/
-    
+
   # - title: "Guide"
   #   url: /markdown/
