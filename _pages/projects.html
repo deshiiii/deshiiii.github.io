@@ -12,11 +12,11 @@ author_profile: true
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
-<!-- todo: maybe change publication --> project here as well -->
+<!-- todo: maybe change publication_category to project_category in _config.yaml... -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
-    {% for post in si te.publications reversed %}
+    {% for post in si te.projects reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
