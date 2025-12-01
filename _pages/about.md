@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "User & Market Analytics"
+title: "User Research & Market Analytics"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-Experienced in user and market research, with work ranging from my doctoral collaboration with Deezer to more recent quantitative UX research for EA and Plaion. My focus is understanding and modelling multi channel user and market dynamics in online platform environments.
+Specialised in quant. user research and market analytics, with work ranging from my doctoral collaboration with Deezer to more recent quantitative UX research for EA and Plaion. My focus is understanding and modelling multi channel user and market dynamics in online platform environments.
 
 Methodologically, I work with causal inference, MMM, surveying, algorithmic auditing and complex networks.
 
