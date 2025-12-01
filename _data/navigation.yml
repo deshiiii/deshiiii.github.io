@@ -17,10 +17,7 @@ main:
   - title: "Outreach"
     url: /year-archive/
 
-  - title: "CV1"
-    url: /cv/
-
-  - title: "CV2"
+  - title: "CV"
     url: /cv/
 
   # - title: "CV"
