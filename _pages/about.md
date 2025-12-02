@@ -3,6 +3,7 @@ permalink: /
 title: "User Research & Market Analytics"
 author_profile: true
 company_rep : "../images/banner.png"
+demo_projects_test : "../images/demoProjects.png"
 redirect_from:
   - /about/
   - /about.html
