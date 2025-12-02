@@ -7,6 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Im a UX Researcher and Market Analyst based in Berlin.
+Quant. UX Researcher and Market Analyst formally affiliated with CAMS (EHESS). Until recently based at the Computational Social Science Lab in Berlin.
 
-Check out my projects to see what I've worked on in the past!
+Specialised in identifying and modelling online micro and macro user behaviour dynamics with computational methods. Over the course of my research career, I have worked at the intersection of industry and academia (PhD, Computer Science) working mainly in the field of digital media
+and entertainment.
+
+Semantically, interested in Computational Social Science and it's applications to industry.
+Methodologically, interested in MMMs, surveying, causal inference, information theory
+and complex networks to name a few!
