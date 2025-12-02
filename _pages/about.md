@@ -8,7 +8,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Quant. UX Researcher and Market Analyst formally affiliated with CAMS (EHESS). Until recently based at the Computational Social Science Lab in Berlin.
+Quant. UX Researcher and Market Analyst formally affiliated with [CAMS (EHESS)](https://cams.ehess.fr/).
+. Until recently based at the Computational Social Science Lab in Berlin.
 
 Specialised in identifying and modelling online micro and macro user behaviour dynamics with computational methods. Over the course of my research career, I have worked at the intersection of industry and academia (PhD, Computer Science) working mainly in the field of digital media
 and entertainment.
