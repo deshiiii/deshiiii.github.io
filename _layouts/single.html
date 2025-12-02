@@ -72,7 +72,12 @@ layout: default
             Who I've worked with:
           </h2> -->
 
-          <img src="{{ page.company_rep }}" alt="alt text" style="max-width: 100%; border-radius: 6px;">
+          <a href="/projects/p1">
+              <img src="{{ page.company_rep }}" alt="alt text" style="max-width: 100%; border-radius: 6px;" class="zoom-img">
+              <!-- <img src="/images/example.png" class="zoom-img"> -->
+          </a>
+
+          <!-- <img src="{{ page.company_rep }}" alt="alt text" style="max-width: 100%; border-radius: 6px;"> -->
 
           <!-- <h2 class="page__title" itemprop="headline">My projects:</h2>
           <img src="{{ page.demo_projects_test }}" alt="alt text" style="max-width: 100%; border-radius: 6px;"> -->
@@ -118,6 +123,15 @@ layout: default
   {% endif %}
 
 
-
-
 </div>
+
+<style>
+.zoom-img {
+  transition: transform 0.3s ease;
+}
+
+.zoom-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+</style>
