@@ -14,7 +14,7 @@ Specialised in identifying and modelling online micro and macro user behaviour d
 and entertainment.
 
 Semantically, interested in Computational Social Science and it's applications to industry.
-Methodologically, interested in MMMs, surveying, causal inference, information theory
-and complex networks to name a few!
+Methodologically, interested in `MMMs`, `surveying`, `causal inference`, `information theory`
+and `complex networks` to name a few!
 
 Hover below to explore some of the projects I've worked on recently!
