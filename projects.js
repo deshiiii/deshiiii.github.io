@@ -18,7 +18,7 @@ const PROJECTS = [
       {
         name: "READ ME",
         // Shown in a pop-up box. Blank lines start a new paragraph.
-        text: `Hi! I'm Dougal, am a Berlin-based Computer Scientist (PhD, EHESS) specialised in the analytical study of ==Culture, Brand and Marketing==.
+        text: `Hi! I'm Dougal Shakespeare, a Berlin-based Computer Scientist (PhD, EHESS) specialised in the analytical study of ==Marketing, Culture and User Research==.
 
 Over the years, I have worked with some of the biggest players in the digital entertainment sector including ==Deezer==, ==EA== and ==Plaion==, and had the pleasure of helping their teams better understand user behaviour to optimise product and marketing.
 From ==MMMs== to ==Complex Networks==, I bring a diverse set of computational methods to both marketing and product analytics.
