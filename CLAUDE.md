@@ -24,5 +24,5 @@ A minimal static site that hosts links to the user's projects as a tree of colla
 ## Running / deploying
 
 - Local: open `index.html` in a browser, or `python3 -m http.server` in this directory.
-- Deploy: GitHub Pages (push the repo; Pages serves the root of the default branch).
+- Deploy: GitHub Pages from repo `deshiiii/deshiiii.github.io`, branch `master` → https://deshiiii.github.io. Commit and `git push`; live in ~1–2 min. `.nojekyll` makes Pages serve files as-is.
 - Hosts are case-sensitive: `href` paths in `projects.js` must match file/folder names exactly.
