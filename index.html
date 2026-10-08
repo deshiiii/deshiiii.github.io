@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dougal's Projects</title>
+  <script>
+    // Apply the saved theme before the page draws, so it doesn't flash
+    try {
+      const theme = localStorage.getItem("theme");
+      if (theme) document.documentElement.dataset.theme = theme;
+    } catch {}
+  </script>
+  <!-- Chakra Petch (free, Open Font License) from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Dougal's Projects</h1>
+      <div class="controls">
+        <button type="button" id="expand-all">Expand all</button>
+        <button type="button" id="collapse-all">Collapse all</button>
+        <button type="button" id="theme-toggle"></button>
+      </div>
+    </header>
+    <ul id="tree" class="tree"></ul>
+  </main>
+
+  <dialog id="popup">
+    <div class="popup-header">
+      <h2 id="popup-title"></h2>
+      <button type="button" class="dialog-close" aria-label="Close">×</button>
+    </div>
+    <div id="popup-body"></div>
+  </dialog>
+
+  <dialog id="pdf-viewer">
+    <div class="popup-header">
+      <h2 id="pdf-title"></h2>
+      <div class="viewer-actions">
+        <a id="pdf-newtab" target="_blank" rel="noopener">Open in new tab ↗</a>
+        <button type="button" class="dialog-close" aria-label="Close">×</button>
+      </div>
+    </div>
+    <iframe id="pdf-frame" title="PDF viewer"></iframe>
+  </dialog>
+
+  <!-- Edit projects.js to change the folder tree -->
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
